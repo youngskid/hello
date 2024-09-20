@@ -29,7 +29,7 @@ public class test1controller {
             , String name, Integer age) {
         //获取数据es.empS()
         //响应
-        System.out.println("11111111测试3");
+        System.out.println("11111111测试2");
         return Result.success(es.page(page, pagesize, name, age));
     }
 
