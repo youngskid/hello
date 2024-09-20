@@ -1,0 +1,26 @@
+#server:
+#  port:
+#对象/map定义法
+#user:
+#   name:...
+#数组/list/set
+#list:
+#   -1
+#   -2
+#eg
+#spring:
+#  application:
+#   name=mybatis_test
+#参数配置化
+#要用时定义属性一样的类,再注入就行(不同软件包要先交给定义配置类ioc再注入）
+#@Data@Component
+#@ConfigurationProperties(prefix = "spring.application")
+#public class x{private String name;}
+
+#开启事务管理日志
+#logging:
+#  level:
+#    org.springframework.jdbc.support.dbcTransactionManager: debug
+
+#引用另外一个配置文件 a:{xxx.a}
+#要引用的文件spring:profiles:active: prod
